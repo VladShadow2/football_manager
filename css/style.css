@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: radial-gradient(circle at center, #34619d 0%, #34619d 1%, #1d3b6e 100%);
+    color: #ffffff;
+    font-family: "Arial";
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+p {
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo {
+    object-fit: cover;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    border-radius: 20px;
+    background-color: #acacaa6c;
+    padding: 15px 57px;
+    column-gap: 30px;
+}
+
+.phone {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+.phone img {
+    width: 25px;
+    height: 25px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.article {}
+
+.slogan {
+    font-size: 16px;
+}
+
+.service-item {
+    font-size: 48px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.football-slogan {
+    font-size: 30px;
+    padding-bottom: 25px;
+}
+
+.button-aticle {
+    padding: 28px 42px;
+    border-radius: 75px;
+    background-color: #ffffff00;
+    border: 3px solid #f4d633;
+    color: #f4d633;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #f4d633;
+    font-weight: bold
+}
+
+.rating {
+    display: flex;
+    column-gap: 8px;
+    padding-top: 32px;
+}
+
+.footer {
+    display: flex;
+    background-color: #f4d633;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.working_hours {
+    display: grid;
+    row-gap: 13px;
+}
+
+.working_hours p {
+    font-size: 16px;
+    line-height: 14px;
+    color: #1e3c6f;
+    font-weight: bold;
+    font-family: "Arial";
+}
+
+.footer-date {
+    display: flex;
+    justify-content: end;
+}
+
+.footer-date p {
+    font-size: 12px;
+    color: #204075;
+    font-family: "Arial";
+    text-align: left;
+}
